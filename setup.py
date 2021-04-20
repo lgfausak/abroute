@@ -57,7 +57,7 @@ setup(
    author_email = 'lgfausak@gmail.com',
    url = 'https://github.com/lgfausak/abroute',
    platforms = 'Any',
-   install_requires = ['autobahn==0.9.3', 'twisted>=14.0.2', 'sqlbridge[postgres]>=0.1.44', 'sqlauth>=0.0.0'],
+   install_requires = ['autobahn==20.12.3', 'twisted>=14.0.2', 'sqlbridge[postgres]>=0.1.44', 'sqlauth>=0.0.0'],
    entry_points = {
       'console_scripts': [
          'abroute = abroute.scripts.abroute:run',
